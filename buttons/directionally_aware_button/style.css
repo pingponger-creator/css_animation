@@ -28,9 +28,10 @@ button{
     border: 0.1em solid var(--bdr-clr);
     background-color: var(--secondary-bg-clr);
     color: var(--clr);
+    border-radius: 100vw;
 }
 
 button:hover,
 button:focus-visible{
-background-color: var(--secondary-bg-clr);
+background-color: var(--hover-bg-clr);
 }
