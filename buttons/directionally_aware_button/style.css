@@ -2,13 +2,14 @@
 
 :root{
     --primary-bg-clr: black;
-    --secondary-bg-clr: rgb(0, 81, 45);
-    --hover-bg-clr: rgb(0, 97, 54);
+    --secondary-bg-clr: rgb(1, 46, 26);
+    --hover-bg-clr: rgb(1, 79, 44);
     --clr: white;
-    --bdr-clr: rgb(19, 134, 98);
+    --bdr-clr: rgb(0, 159, 108);
 }
 
 body{
+    font-size: 2rem;
     height: 100svh;
     display: flex;
     justify-content: center;
