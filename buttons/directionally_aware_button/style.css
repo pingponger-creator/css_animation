@@ -1,0 +1,35 @@
+/* Styles for Button */
+
+:root{
+    --primary-bg-clr: black;
+    --secondary-bg-clr: rgb(0, 81, 45);
+    --clr: white;
+    --bdr-clr: rgb(19, 134, 98);
+}
+
+body{
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--primary-bg-clr);
+
+
+
+    
+}
+
+button{
+    font: inherit;
+    padding: 0.75em 3em;
+    cursor: pointer;
+    border: 0.1em solid var(--bdr-clr);
+    background-color: var(--secondary-bg-clr);
+    color: var(--clr);
+}
+
+button:hover,
+button:focus-visible{
+background-color: var(--secondary-bg-clr);
+}
