@@ -3,6 +3,7 @@
 :root{
     --primary-bg-clr: black;
     --secondary-bg-clr: rgb(0, 81, 45);
+    --hover-bg-clr: rgb(0, 97, 54);
     --clr: white;
     --bdr-clr: rgb(19, 134, 98);
 }
